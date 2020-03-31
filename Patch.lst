@@ -1,0 +1,12 @@
+LOC    OBJ              LINE   SOURCE
+                        1      ;
+02A3D4 00                      ; NOP
+02A3D5 3E02                    ; LD A, 0x02
+
+------
+02A438 00                      ; NOP
+02A439 3E02                    ; LD A, 0x02
+
+------
+02A473 00                      ; NOP
+02A474 3E02                    ; LD A, 0x02
