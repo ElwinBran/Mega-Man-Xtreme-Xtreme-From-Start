@@ -1,12 +1,11 @@
 LOC    OBJ              LINE   SOURCE
-                        1      ;
-02A3D4 00                      ; NOP
-02A3D5 3E02                    ; LD A, 0x02
-
+                        1      ; Basically all the edits just replace the call to mode value with an ensured 'Xtreme mode' value.
+                        2      ; The NOP is padding and 0x02 is the value for Xtreme mode.
+02A3D4 00               3      ; NOP
+02A3D5 3E02             4      ; LD A, 0x02
 ------
-02A438 00                      ; NOP
-02A439 3E02                    ; LD A, 0x02
-
+02A438 00               5      ; NOP
+02A439 3E02             6      ; LD A, 0x02
 ------
-02A473 00                      ; NOP
-02A474 3E02                    ; LD A, 0x02
+02A473 00               7      ; NOP
+02A474 3E02             8      ; LD A, 0x02
